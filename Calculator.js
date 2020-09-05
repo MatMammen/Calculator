@@ -12,6 +12,7 @@ function createNumButtons() {
     for (let i = 1; i < 10; i++) {
         let button = document.createElement('button')
         button.textContent = i;
+        button.style.backgroundColor = 'green';
         gridContainer.appendChild(button)
         button.addEventListener("click", function() {
             if (numArray.length == 0) {
@@ -29,6 +30,7 @@ function createNumButtons() {
 function createOtherButtons() {
     let zero = document.createElement('button')
     zero.textContent = 0;
+    zero.style.backgroundColor = 'green';
     zero.addEventListener("click", function() {
         if (numArray.length == 0) {
             num1 = num1 + 0;

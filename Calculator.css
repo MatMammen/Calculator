@@ -1,12 +1,12 @@
 
 .grid-container {
     position: relative;
-    top: 25em;
+    top: 10em;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color:red;
     padding: 10px;
     
   }
@@ -20,7 +20,11 @@
 
   #display {
     position: relative;
-    left: 25em;
-    top: 8em;
+    top: 4em;
     font-size: 43px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  #wholePage{
+    background-color: red;
   }
